@@ -39,7 +39,7 @@ all: 84_stable $(PROGRAMS)
 clean:
 	$(E) CLEAN
 	$(Q) rm -f support.o 84_stable
-	$(Q) rm -f $(PROGRAMS) $(PROGRAMS:%=%.c) $(PROGRAMS:%:%.c.d)
+	$(Q) rm -f $(PROGRAMS) $(PROGRAMS:%=%.c) $(PROGRAMS:%=%.c.d)
 
 
 ### Compile and link
